@@ -1,0 +1,29 @@
+{
+  "campusTotal": {
+    "currentOccupancy": 1776,
+    "totalCapacity": 3030,
+    "utilizationPercent": 58.6,
+    "timestamp": "2026-10-23T08:30:00Z"
+  },
+  "buildings": [
+    { "buildingId": "BLD-001", "buildingName": "Engineering Block A", "currentOccupancy": 312, "capacity": 500, "utilizationPercent": 62.4 },
+    { "buildingId": "BLD-002", "buildingName": "Science Complex", "currentOccupancy": 198, "capacity": 350, "utilizationPercent": 56.6 },
+    { "buildingId": "BLD-003", "buildingName": "Main Library", "currentOccupancy": 420, "capacity": 600, "utilizationPercent": 70.0 },
+    { "buildingId": "BLD-004", "buildingName": "Student Center", "currentOccupancy": 145, "capacity": 300, "utilizationPercent": 48.3 },
+    { "buildingId": "BLD-005", "buildingName": "Sports Complex", "currentOccupancy": 87, "capacity": 400, "utilizationPercent": 21.8 },
+    { "buildingId": "BLD-006", "buildingName": "Administration Block", "currentOccupancy": 78, "capacity": 150, "utilizationPercent": 52.0 },
+    { "buildingId": "BLD-007", "buildingName": "Hostel Block 1", "currentOccupancy": 380, "capacity": 480, "utilizationPercent": 79.2 },
+    { "buildingId": "BLD-008", "buildingName": "Research Center", "currentOccupancy": 156, "capacity": 250, "utilizationPercent": 62.4 }
+  ],
+  "hourlyTrend": [
+    { "hour": "06:00", "occupancy": 245 }, { "hour": "07:00", "occupancy": 480 },
+    { "hour": "08:00", "occupancy": 890 }, { "hour": "09:00", "occupancy": 1320 },
+    { "hour": "10:00", "occupancy": 1650 }, { "hour": "11:00", "occupancy": 1780 },
+    { "hour": "12:00", "occupancy": 1520 }, { "hour": "13:00", "occupancy": 1690 },
+    { "hour": "14:00", "occupancy": 1776 }, { "hour": "15:00", "occupancy": 1580 },
+    { "hour": "16:00", "occupancy": 1320 }, { "hour": "17:00", "occupancy": 980 },
+    { "hour": "18:00", "occupancy": 720 }, { "hour": "19:00", "occupancy": 560 },
+    { "hour": "20:00", "occupancy": 450 }, { "hour": "21:00", "occupancy": 380 }
+  ],
+  "note": "Occupancy data is simulated. No real sensors or access control systems are connected."
+}

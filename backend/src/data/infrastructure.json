@@ -1,0 +1,122 @@
+[
+  {
+    "id": "INF-001",
+    "name": "Central HVAC System",
+    "type": "HVAC",
+    "location": "Engineering Block A",
+    "status": "Operational",
+    "health": 92,
+    "lastMaintenance": "2026-09-15T10:00:00Z",
+    "nextMaintenance": "2026-12-15T10:00:00Z",
+    "installedDate": "2020-03-10",
+    "notes": "Filter replacement scheduled for next maintenance cycle."
+  },
+  {
+    "id": "INF-002",
+    "name": "Elevator System - Block A",
+    "type": "Elevator",
+    "location": "Engineering Block A",
+    "status": "Operational",
+    "health": 88,
+    "lastMaintenance": "2026-10-01T09:00:00Z",
+    "nextMaintenance": "2027-01-01T09:00:00Z",
+    "installedDate": "2015-06-20",
+    "notes": "Annual safety inspection passed."
+  },
+  {
+    "id": "INF-003",
+    "name": "Solar Panel Array - Rooftop",
+    "type": "Energy",
+    "location": "Main Library",
+    "status": "Operational",
+    "health": 95,
+    "lastMaintenance": "2026-10-05T08:00:00Z",
+    "nextMaintenance": "2027-04-05T08:00:00Z",
+    "installedDate": "2022-01-15",
+    "notes": "Generating 187.5 kWh daily. Cleaning scheduled for November."
+  },
+  {
+    "id": "INF-004",
+    "name": "Fire Suppression System",
+    "type": "Safety",
+    "location": "Science Complex",
+    "status": "Warning",
+    "health": 72,
+    "lastMaintenance": "2026-07-20T14:00:00Z",
+    "nextMaintenance": "2026-10-25T14:00:00Z",
+    "installedDate": "2012-08-10",
+    "notes": "Pressure sensor in Zone 3 showing intermittent readings. Inspection required."
+  },
+  {
+    "id": "INF-005",
+    "name": "Water Pump Station",
+    "type": "Plumbing",
+    "location": "Central Utilities",
+    "status": "Operational",
+    "health": 85,
+    "lastMaintenance": "2026-09-28T11:00:00Z",
+    "nextMaintenance": "2026-12-28T11:00:00Z",
+    "installedDate": "2018-04-22",
+    "notes": "Operating within normal parameters."
+  },
+  {
+    "id": "INF-006",
+    "name": "Campus Wi-Fi Network",
+    "type": "Network",
+    "location": "Campus-wide",
+    "status": "Operational",
+    "health": 97,
+    "lastMaintenance": "2026-10-20T06:00:00Z",
+    "nextMaintenance": "2027-01-20T06:00:00Z",
+    "installedDate": "2023-02-01",
+    "notes": "325 access points active. 99.7% uptime this month."
+  },
+  {
+    "id": "INF-007",
+    "name": "Backup Generator",
+    "type": "Energy",
+    "location": "Administration Block",
+    "status": "Operational",
+    "health": 80,
+    "lastMaintenance": "2026-08-10T10:00:00Z",
+    "nextMaintenance": "2026-11-10T10:00:00Z",
+    "installedDate": "2017-09-15",
+    "notes": "Fuel level at 78%. Routine test completed successfully."
+  },
+  {
+    "id": "INF-008",
+    "name": "Swimming Pool Filtration",
+    "type": "Plumbing",
+    "location": "Sports Complex",
+    "status": "Fault",
+    "health": 35,
+    "lastMaintenance": "2026-10-18T15:00:00Z",
+    "nextMaintenance": "2026-10-24T09:00:00Z",
+    "installedDate": "2020-07-01",
+    "notes": "Filtration pump motor failure detected. Replacement part ordered. Pool closed until repair."
+  },
+  {
+    "id": "INF-009",
+    "name": "Elevator System - Library",
+    "type": "Elevator",
+    "location": "Main Library",
+    "status": "Warning",
+    "health": 65,
+    "lastMaintenance": "2026-09-01T09:00:00Z",
+    "nextMaintenance": "2026-10-30T09:00:00Z",
+    "installedDate": "2010-11-20",
+    "notes": "Unusual vibration detected on floors 3-4. Technician scheduled for inspection."
+  },
+  {
+    "id": "INF-010",
+    "name": "CCTV Surveillance Network",
+    "type": "Security",
+    "location": "Campus-wide",
+    "status": "Operational",
+    "health": 91,
+    "lastMaintenance": "2026-10-12T07:00:00Z",
+    "nextMaintenance": "2027-01-12T07:00:00Z",
+    "installedDate": "2021-05-10",
+    "notes": "142 cameras active. 3 cameras in Parking Lot B need lens cleaning."
+  }
+]

@@ -1,0 +1,67 @@
+[
+  {
+    "id": "SHT-001",
+    "name": "Campus Shuttle A",
+    "route": "Main Gate → Engineering Block → Library → Hostel → Main Gate",
+    "status": "In Service",
+    "currentLocation": "Near Engineering Block A",
+    "capacity": 40,
+    "currentPassengers": 28,
+    "driver": "D. Kumar",
+    "nextStop": "Main Library",
+    "estimatedArrival": "3 min",
+    "lastUpdated": "2026-10-23T08:28:00Z"
+  },
+  {
+    "id": "SHT-002",
+    "name": "Campus Shuttle B",
+    "route": "South Gate → Research Center → Student Center → Admin Block → South Gate",
+    "status": "In Service",
+    "currentLocation": "Student Center Stop",
+    "capacity": 40,
+    "currentPassengers": 15,
+    "driver": "R. Sharma",
+    "nextStop": "Administration Block",
+    "estimatedArrival": "5 min",
+    "lastUpdated": "2026-10-23T08:27:00Z"
+  },
+  {
+    "id": "SHT-003",
+    "name": "Campus Shuttle C",
+    "route": "East Gate → Sports Complex → Science Complex → East Gate",
+    "status": "Out of Service",
+    "currentLocation": "Depot",
+    "capacity": 35,
+    "currentPassengers": 0,
+    "driver": "Unassigned",
+    "nextStop": "N/A",
+    "estimatedArrival": "N/A",
+    "lastUpdated": "2026-10-23T07:00:00Z"
+  },
+  {
+    "id": "SHT-004",
+    "name": "Electric Cart 1",
+    "route": "Inter-building transport (on demand)",
+    "status": "In Service",
+    "currentLocation": "Administration Block",
+    "capacity": 6,
+    "currentPassengers": 2,
+    "driver": "S. Patel",
+    "nextStop": "Research Center",
+    "estimatedArrival": "2 min",
+    "lastUpdated": "2026-10-23T08:30:00Z"
+  },
+  {
+    "id": "SHT-005",
+    "name": "Electric Cart 2",
+    "route": "Inter-building transport (on demand)",
+    "status": "Charging",
+    "currentLocation": "Charging Station - Hostel Block",
+    "capacity": 6,
+    "currentPassengers": 0,
+    "driver": "Unassigned",
+    "nextStop": "N/A",
+    "estimatedArrival": "Available in 45 min",
+    "lastUpdated": "2026-10-23T08:15:00Z"
+  }
+]

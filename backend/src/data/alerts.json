@@ -1,0 +1,98 @@
+[
+  {
+    "id": "ALT-001",
+    "severity": "Critical",
+    "title": "Swimming Pool Filtration Pump Failure",
+    "description": "The filtration pump motor in Sports Complex has failed. Pool operations suspended. Replacement part has been ordered and is expected to arrive by October 25.",
+    "location": "Sports Complex",
+    "equipmentId": "INF-008",
+    "timestamp": "2026-10-22T15:30:00Z",
+    "acknowledged": true,
+    "resolvedAt": null,
+    "assignedTo": "Maintenance Team B"
+  },
+  {
+    "id": "ALT-002",
+    "severity": "Warning",
+    "title": "Fire Suppression Pressure Anomaly",
+    "description": "Pressure sensor in Zone 3 of Science Complex fire suppression system is showing intermittent readings. Scheduled inspection for October 25.",
+    "location": "Science Complex",
+    "equipmentId": "INF-004",
+    "timestamp": "2026-10-22T09:15:00Z",
+    "acknowledged": true,
+    "resolvedAt": null,
+    "assignedTo": "Safety Team"
+  },
+  {
+    "id": "ALT-003",
+    "severity": "Warning",
+    "title": "Library Elevator Vibration Detected",
+    "description": "Unusual vibration detected in the Main Library elevator system between floors 3 and 4. Technician inspection scheduled for October 30.",
+    "location": "Main Library",
+    "equipmentId": "INF-009",
+    "timestamp": "2026-10-21T14:45:00Z",
+    "acknowledged": true,
+    "resolvedAt": null,
+    "assignedTo": "Elevator Maintenance Co."
+  },
+  {
+    "id": "ALT-004",
+    "severity": "Info",
+    "title": "Shuttle C Taken Out of Service",
+    "description": "Campus Shuttle C has been taken out of service for routine brake inspection. Expected back in service by October 24.",
+    "location": "Transport Depot",
+    "equipmentId": null,
+    "timestamp": "2026-10-23T07:00:00Z",
+    "acknowledged": true,
+    "resolvedAt": null,
+    "assignedTo": "Transport Division"
+  },
+  {
+    "id": "ALT-005",
+    "severity": "Info",
+    "title": "Backup Generator Fuel Level Alert",
+    "description": "Backup generator fuel level is at 78%. Refueling recommended before next scheduled test on November 10.",
+    "location": "Administration Block",
+    "equipmentId": "INF-007",
+    "timestamp": "2026-10-22T11:00:00Z",
+    "acknowledged": false,
+    "resolvedAt": null,
+    "assignedTo": "Facilities Management"
+  },
+  {
+    "id": "ALT-006",
+    "severity": "Critical",
+    "title": "HVAC Compressor Overheating",
+    "description": "HVAC compressor unit in Hostel Block 1 reporting temperature 15% above normal operating range. Automatic shutdown triggered to prevent damage.",
+    "location": "Hostel Block 1",
+    "equipmentId": null,
+    "timestamp": "2026-10-23T06:45:00Z",
+    "acknowledged": false,
+    "resolvedAt": null,
+    "assignedTo": "HVAC Team"
+  },
+  {
+    "id": "ALT-007",
+    "severity": "Warning",
+    "title": "Parking Lot B Camera Maintenance",
+    "description": "3 CCTV cameras in Parking Lot B require lens cleaning. Image quality degraded by approximately 30%.",
+    "location": "Parking Lot B",
+    "equipmentId": "INF-010",
+    "timestamp": "2026-10-20T16:20:00Z",
+    "acknowledged": true,
+    "resolvedAt": null,
+    "assignedTo": "Security Team"
+  },
+  {
+    "id": "ALT-008",
+    "severity": "Info",
+    "title": "Energy Consumption Peak Warning",
+    "description": "Campus energy consumption exceeded daily average by 3.2% today. Engineering Block A and Hostel Block 1 are the primary contributors.",
+    "location": "Campus-wide",
+    "equipmentId": null,
+    "timestamp": "2026-10-23T08:00:00Z",
+    "acknowledged": false,
+    "resolvedAt": null,
+    "assignedTo": "Energy Management"
+  }
+]

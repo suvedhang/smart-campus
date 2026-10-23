@@ -1,0 +1,46 @@
+{
+  "daily": [
+    { "date": "2026-10-17", "totalConsumption": 1285.4, "unit": "kWh", "peakHour": 14, "peakConsumption": 89.2 },
+    { "date": "2026-10-18", "totalConsumption": 1198.7, "unit": "kWh", "peakHour": 13, "peakConsumption": 82.5 },
+    { "date": "2026-10-19", "totalConsumption": 1342.1, "unit": "kWh", "peakHour": 15, "peakConsumption": 95.3 },
+    { "date": "2026-10-20", "totalConsumption": 1156.9, "unit": "kWh", "peakHour": 14, "peakConsumption": 78.8 },
+    { "date": "2026-10-21", "totalConsumption": 1289.3, "unit": "kWh", "peakHour": 11, "peakConsumption": 88.1 },
+    { "date": "2026-10-22", "totalConsumption": 1367.8, "unit": "kWh", "peakHour": 14, "peakConsumption": 97.6 },
+    { "date": "2026-10-23", "totalConsumption": 1321.4, "unit": "kWh", "peakHour": 13, "peakConsumption": 91.4 }
+  ],
+  "buildingBreakdown": [
+    { "buildingId": "BLD-001", "buildingName": "Engineering Block A", "consumption": 245.8, "unit": "kWh", "efficiency": "B" },
+    { "buildingId": "BLD-002", "buildingName": "Science Complex", "consumption": 189.3, "unit": "kWh", "efficiency": "B+" },
+    { "buildingId": "BLD-003", "buildingName": "Main Library", "consumption": 167.5, "unit": "kWh", "efficiency": "A" },
+    { "buildingId": "BLD-004", "buildingName": "Student Center", "consumption": 98.2, "unit": "kWh", "efficiency": "A+" },
+    { "buildingId": "BLD-005", "buildingName": "Sports Complex", "consumption": 134.6, "unit": "kWh", "efficiency": "B" },
+    { "buildingId": "BLD-006", "buildingName": "Administration Block", "consumption": 76.4, "unit": "kWh", "efficiency": "A+" },
+    { "buildingId": "BLD-007", "buildingName": "Hostel Block 1", "consumption": 210.9, "unit": "kWh", "efficiency": "C" },
+    { "buildingId": "BLD-008", "buildingName": "Research Center", "consumption": 198.7, "unit": "kWh", "efficiency": "B+" }
+  ],
+  "hourly": [
+    { "hour": 0, "consumption": 32.1 }, { "hour": 1, "consumption": 28.5 },
+    { "hour": 2, "consumption": 25.8 }, { "hour": 3, "consumption": 24.2 },
+    { "hour": 4, "consumption": 23.9 }, { "hour": 5, "consumption": 26.7 },
+    { "hour": 6, "consumption": 35.4 }, { "hour": 7, "consumption": 52.8 },
+    { "hour": 8, "consumption": 71.3 }, { "hour": 9, "consumption": 82.6 },
+    { "hour": 10, "consumption": 88.4 }, { "hour": 11, "consumption": 91.2 },
+    { "hour": 12, "consumption": 85.7 }, { "hour": 13, "consumption": 93.8 },
+    { "hour": 14, "consumption": 97.6 }, { "hour": 15, "consumption": 89.1 },
+    { "hour": 16, "consumption": 78.5 }, { "hour": 17, "consumption": 65.3 },
+    { "hour": 18, "consumption": 58.9 }, { "hour": 19, "consumption": 52.1 },
+    { "hour": 20, "consumption": 47.6 }, { "hour": 21, "consumption": 42.3 },
+    { "hour": 22, "consumption": 38.7 }, { "hour": 23, "consumption": 34.9 }
+  ],
+  "summary": {
+    "totalToday": 1321.4,
+    "averageDaily": 1280.2,
+    "percentChange": 3.2,
+    "unit": "kWh",
+    "solarGeneration": 187.5,
+    "gridConsumption": 1133.9,
+    "carbonFootprint": 892.4,
+    "carbonUnit": "kg CO2"
+  },
+  "note": "All energy data is simulated for demonstration purposes. No real sensors are connected."
+}
